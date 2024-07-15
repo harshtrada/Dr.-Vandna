@@ -1,0 +1,80 @@
+.ig:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.tw:hover {
+  background-color: #1da1f2 !important;
+  color: #fff !important;
+}
+
+.sc:hover {
+  background-color: #fffc00 !important;
+  color: #000 !important; 
+}
+
+.wrapper {
+  position: relative;
+  left: 30%;
+}
+
+.wrapper :is(.button, .link) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #151515;
+  border-radius: 50%;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.two {
+  z-index: 9;
+  margin: -32px;
+}
+
+.activ .button,
+.button:hover {
+  outline: 3px solid #0561ee;
+  outline-offset: -4px;
+}
+
+.item {
+  position: absolute;
+  list-style: none;
+  transition: transform 0.5s;
+  transition-delay: var(--d);
+}
+
+.wrapper.activ .item:nth-child(1) {
+  transform: translateX(-65px);
+}
+
+.wrapper.activ .item:nth-child(2) {
+  transform: translateY(-65px);
+}
+
+.wrapper.activ .item:nth-child(3) {
+  transform: translateX(65px);
+}
+
+.link:hover {
+  color: #fff;
+  transition: background-color 0.5s;
+}

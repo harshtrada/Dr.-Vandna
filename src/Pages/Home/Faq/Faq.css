@@ -1,0 +1,98 @@
+/* FAQ Section Styling */
+/* .accordion .card-header {
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+  }
+  
+  .accordion .card-header button {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .accordion .card-header:hover {
+    background-color: #0056b3; 
+  }
+  
+  .accordion .card-body {
+    border-top: 1px solid #007bff; 
+  } */
+/* FAQ Section Styling */
+/* .accordion .card {
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.accordion .card-header {
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem; 
+  padding: 1rem; 
+}
+
+.accordion .card-header:hover {
+  background-color: #0056b3; 
+}
+
+.accordion .card-header button {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.accordion .card-body {
+  border-top: 1px solid #007bff; 
+  font-size: 1rem; 
+  padding: 1rem; 
+  background-color: #f8f9fa; 
+} */
+/* FAQ Section Styling */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.accordion .card {
+  margin-bottom: 1rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion .card-header {
+  background-color: rgb(242, 240, 240); /* Primary color */
+  color: black;
+  cursor: pointer;
+  font-size: 1.2rem; /* Adjust font size */
+  padding: 1rem; /* Adjust padding */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accordion .card-header:hover {
+  background-color: #ed1c25; /* Darker shade for hover effect */
+}
+
+.accordion .card-header button {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.2rem; /* Adjust font size */
+}
+
+.accordion .card-body {
+  /* border-top: 1px solid #007bff;  */
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.accordion .show .card-header {
+  background-color: red;
+}
